@@ -1,0 +1,9 @@
+function getpwd() {
+    if [ "x$1" = "x" ] ; then 
+         grep = $"$HOME/dotfiles/.passwords" | awk -F= '{print $1}'; 
+    else
+        grep $1 $"$HOME/dotfiles/.passwords" | awk -F= '{print $2}' | tr -d '\n' | pbcopy
+    fi
+}
+
+export -f getpwd
