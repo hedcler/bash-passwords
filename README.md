@@ -5,7 +5,7 @@ Prevent to show your passwords notes when your screen is shared with others.
 
 ## Installation
 
-Download this [repository as zip](https://github.com/hedcler/bash-passwords/archive/master.zip) and extract it. Save the file `.getpowd` and directory `dotfiles` in your home path.
+Download this [repository as zip](https://github.com/hedcler/bash-passwords/archive/master.zip) and extract it. Save the file `.getpwd` and directory `dotfiles` in your home path.
 
 After that you need to add this import script in your `~/.bashrc` or `~/.bash-profile`:
 
